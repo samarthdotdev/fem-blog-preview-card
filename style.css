@@ -38,16 +38,6 @@ section {
   margin-bottom: 0.8rem;
 }
 
-.heading {
-  text-decoration: none;
-  color: hsl(0, 0%, 7%);
-}
-
-.heading:hover {
-  color: hsl(47, 88%, 63%);
-  cursor: pointer;
-}
-
 .date {
   font-size: 0.7rem;
   margin-bottom: 1rem;
@@ -57,6 +47,16 @@ h1 {
   font-size: 1.1rem;
   font-weight: 900;
   margin-bottom: 1rem;
+}
+
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.heading {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
 }
 
 .description {
